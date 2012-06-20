@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75D4079C15756EF700128AC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D4079B15756EF700128AC4 /* Cocoa.framework */; };
+		75D407A615756EF700128AC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75D407A415756EF700128AC4 /* InfoPlist.strings */; };
+		75D407A815756EF700128AC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D407A715756EF700128AC4 /* main.m */; };
+		75D407AC15756EF700128AC4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 75D407AA15756EF700128AC4 /* Credits.rtf */; };
+		75D407AF15756EF700128AC4 /* MFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D407AE15756EF700128AC4 /* MFAppDelegate.m */; };
+		75D407B215756EF700128AC4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D407B015756EF700128AC4 /* MainMenu.xib */; };
+		75D407BA1575706900128AC4 /* DSDropFolderBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D407B91575706900128AC4 /* DSDropFolderBox.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75D4079715756EF700128AC4 /* VolumeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D4079B15756EF700128AC4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		75D4079E15756EF700128AC4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		75D4079F15756EF700128AC4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		75D407A015756EF700128AC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75D407A315756EF700128AC4 /* VolumeTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VolumeTest-Info.plist"; sourceTree = "<group>"; };
+		75D407A515756EF700128AC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75D407A715756EF700128AC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75D407A915756EF700128AC4 /* VolumeTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VolumeTest-Prefix.pch"; sourceTree = "<group>"; };
+		75D407AB15756EF700128AC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		75D407AD15756EF700128AC4 /* MFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFAppDelegate.h; sourceTree = "<group>"; };
+		75D407AE15756EF700128AC4 /* MFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFAppDelegate.m; sourceTree = "<group>"; };
+		75D407B115756EF700128AC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		75D407B81575706900128AC4 /* DSDropFolderBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDropFolderBox.h; sourceTree = "<group>"; };
+		75D407B91575706900128AC4 /* DSDropFolderBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDropFolderBox.m; sourceTree = "<group>"; };
+		75D407C515762EAD00128AC4 /* VolumeTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VolumeTest.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75D4079415756EF700128AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D4079C15756EF700128AC4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75D4078C15756EF700128AC4 = {
+			isa = PBXGroup;
+			children = (
+				75D407A115756EF700128AC4 /* VolumeTest */,
+				75D4079A15756EF700128AC4 /* Frameworks */,
+				75D4079815756EF700128AC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75D4079815756EF700128AC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D4079715756EF700128AC4 /* VolumeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D4079A15756EF700128AC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75D4079B15756EF700128AC4 /* Cocoa.framework */,
+				75D4079D15756EF700128AC4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75D4079D15756EF700128AC4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75D4079E15756EF700128AC4 /* AppKit.framework */,
+				75D4079F15756EF700128AC4 /* CoreData.framework */,
+				75D407A015756EF700128AC4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		75D407A115756EF700128AC4 /* VolumeTest */ = {
+			isa = PBXGroup;
+			children = (
+				75D407C515762EAD00128AC4 /* VolumeTest.entitlements */,
+				75D407AD15756EF700128AC4 /* MFAppDelegate.h */,
+				75D407AE15756EF700128AC4 /* MFAppDelegate.m */,
+				75D407B015756EF700128AC4 /* MainMenu.xib */,
+				75D407B81575706900128AC4 /* DSDropFolderBox.h */,
+				75D407B91575706900128AC4 /* DSDropFolderBox.m */,
+				75D407A215756EF700128AC4 /* Supporting Files */,
+			);
+			path = VolumeTest;
+			sourceTree = "<group>";
+		};
+		75D407A215756EF700128AC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D407A315756EF700128AC4 /* VolumeTest-Info.plist */,
+				75D407A415756EF700128AC4 /* InfoPlist.strings */,
+				75D407A715756EF700128AC4 /* main.m */,
+				75D407A915756EF700128AC4 /* VolumeTest-Prefix.pch */,
+				75D407AA15756EF700128AC4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75D4079615756EF700128AC4 /* VolumeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D407B515756EF700128AC4 /* Build configuration list for PBXNativeTarget "VolumeTest" */;
+			buildPhases = (
+				75D4079315756EF700128AC4 /* Sources */,
+				75D4079415756EF700128AC4 /* Frameworks */,
+				75D4079515756EF700128AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolumeTest;
+			productName = VolumeTest;
+			productReference = 75D4079715756EF700128AC4 /* VolumeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75D4078E15756EF700128AC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MF;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 75D4079115756EF700128AC4 /* Build configuration list for PBXProject "VolumeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75D4078C15756EF700128AC4;
+			productRefGroup = 75D4079815756EF700128AC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75D4079615756EF700128AC4 /* VolumeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75D4079515756EF700128AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D407A615756EF700128AC4 /* InfoPlist.strings in Resources */,
+				75D407AC15756EF700128AC4 /* Credits.rtf in Resources */,
+				75D407B215756EF700128AC4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75D4079315756EF700128AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D407A815756EF700128AC4 /* main.m in Sources */,
+				75D407AF15756EF700128AC4 /* MFAppDelegate.m in Sources */,
+				75D407BA1575706900128AC4 /* DSDropFolderBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75D407A415756EF700128AC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D407A515756EF700128AC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75D407AA15756EF700128AC4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D407AB15756EF700128AC4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		75D407B015756EF700128AC4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D407B115756EF700128AC4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75D407B315756EF700128AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		75D407B415756EF700128AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		75D407B615756EF700128AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VolumeTest/VolumeTest.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VolumeTest/VolumeTest-Prefix.pch";
+				INFOPLIST_FILE = "VolumeTest/VolumeTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75D407B715756EF700128AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VolumeTest/VolumeTest.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VolumeTest/VolumeTest-Prefix.pch";
+				INFOPLIST_FILE = "VolumeTest/VolumeTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75D4079115756EF700128AC4 /* Build configuration list for PBXProject "VolumeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D407B315756EF700128AC4 /* Debug */,
+				75D407B415756EF700128AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D407B515756EF700128AC4 /* Build configuration list for PBXNativeTarget "VolumeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D407B615756EF700128AC4 /* Debug */,
+				75D407B715756EF700128AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75D4078E15756EF700128AC4 /* Project object */;
+}
